@@ -6,6 +6,14 @@ app.controller('myctrl', ['$scope', 'myservice', function($scope, myservice){
 	$scope.users = myservice.getusers();
 }]);
 
+
+app.directive ('mydirective', [function(){
+	return{
+		restrict:"AE",
+		template:"<h1>Hey There {{test}}</h1>"
+	};
+}]);
+
 app.factory('myservice',[function(){
 
 	function getusers(){
