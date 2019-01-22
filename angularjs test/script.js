@@ -1,8 +1,9 @@
 var app = angular.module('myapp', []);
 
 
-app.controller('myctrl', ['$scope', function($scope){
+app.controller('myctrl', ['$scope', 'myservice', function($scope, myservice){
 	$scope.test = "this is test";
+	$scope.users = myservice.getusers();
 }]);
 
 app.factory('myservice',[function(){
@@ -25,6 +26,6 @@ app.factory('myservice',[function(){
 		]
 	}
 	return{
-
+		getusers
 	};
 }]);
