@@ -18,7 +18,7 @@
 </div>
   
 <div class="container">
-  <div class="row" ng-init="display_data">
+  <div class="row" ng-init="display_data()">
    <table class="table table-bordered" >
    	<thead class="thead-dark">
    		<tr align="center">
@@ -32,7 +32,7 @@
    		<tr ng-repeat="photo in photos">
    			<td >{{photo.id}}</td>
    			<td >{{photo.title}}</td>
-   			<td >{{photo.decription}}</td>
+   			<td >{{photo.description}}</td>
    			<td >{{photo.location}}</td>
    		</tr>
 
