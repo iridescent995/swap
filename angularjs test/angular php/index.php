@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Angular PHP</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -18,13 +18,14 @@
 <div class="container">
   <div class="row">
    <table class="table table-bordered">
-   		<tr>
+   	<thead class="thead-dark">
+   		<tr align="center">
    			<th>Id</th>
    			<th>Titles</th>
    			<th>Description</th>
    			<th>Location</th>
-
    		</tr>
+   	</thead>	
    </table>
   </div>
 </div>
