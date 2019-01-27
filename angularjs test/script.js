@@ -19,7 +19,8 @@ app.factory('myservice',[function(){
 	function getusers(){
 		return[
 			{
-				name:"user1",
+				id:"1",
+				title:"user1",
 				age:"10"
 			},
 			{
