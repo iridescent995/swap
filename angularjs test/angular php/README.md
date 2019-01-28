@@ -1,2 +1,2 @@
 # Angular js with PHP | MYSQL
-Barter based platform to swap/exchange goods and merchandise. 
+Connecting mysqldata base with angular js with php api.
