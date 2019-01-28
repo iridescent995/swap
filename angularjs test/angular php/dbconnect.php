@@ -15,7 +15,7 @@ $dbconnect['name']
 );
 
 if($db -> connect_errno >0){
-    echo "<br><br><h2>Photoplay cant be reached right now! :( </h2><br> Error details:" .$db ->connect_error;
+    echo "<br><br><h2>Database cant be reached right now! :( </h2><br> Error details:" .$db ->connect_error;
     exit;
 }
 
